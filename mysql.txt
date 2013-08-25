@@ -1,0 +1,6 @@
+MySQL时间戳转换  
+1、将时间转换为时间戳
+select unix_timestamp('2009-10-26 10-06-07')
+如果参数为空，则处理为当前时间
+2、将时间戳转换为时间
+select from_unixtime(1256540102)
